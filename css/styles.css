@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-div {
+  background-color: #000000;
+  height: 28.4rem;
+  position: relative;
+  bottom: 1rem;
+}
+
+.nav-div {
+  height: 2.7rem;
+  position: relative;
+  top: 3rem;
+}
+
+.nav-div ul {
+  list-style: none;
+  margin-left: 65px;
+  position: relative;
+  bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-div li {
+  display: inline-flex;
+  color: #FFFFFF;
+  padding-left: 23px;
+  position: relative;
+  top: 1rem;
+  font-weight: 600;
+}
+
+.nav-div li:hover {
+  color: #FF7900;
+  cursor: pointer;
+}
+
+.nav-img {
+  width: 4.5rem;
+}
+
+.nav-div h2 {
+  color: #FF7900;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 7.9rem;
+  position: relative;
+  top: 0.1rem;
+  font-size: 2rem;
+}
+
+.nav-div p {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding-left: 7.8rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+.con-img {
+  width: 40rem;
+  position: relative;
+  bottom: 10.3rem;
+  left: 48rem;
+}
+
+.con-btn {
+  position: relative;
+  right: 33.4rem;
+  bottom: 6rem;
+  background-color: #FF7900;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  border: none;
+}
+
+.con-btn:hover {
+  color: #FF7900;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.con-btn2 {
+  position: relative;
+  right: 33.4rem;
+  bottom: 6rem;
+  outline-color: #fff;
+  background: black;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #fff;
+  margin-left: 1rem;
+  outline: none;
+}
+
+.con-btn2:hover {
+  color: #FF7900;
+  background-color: #FFFFFF;
+}
+
+.features-div {
+  padding: 7% 15%;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1rem;
+}
+
+.icon {
+  color: #F58634;
+  margin-bottom: 13px;
+}
+
+.icon:hover {
+  color: #FF5722;
+}
+
+.features-list {
+  padding: 5%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.features-list h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.features-list p {
+  font-weight: bold;
+  color: #8F8F8F;
+
+}
+
+#content-div {
+  background-color: #FFD200;
+}
+
+.con-txt1 h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.con-txt2 h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.con-txt1 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.con-txt2 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#content-div {
+  padding: 4% 8%;
+  height: 24rem;
+}
+
+.logo {
+  margin-top: 1.7rem;
+  margin-left: 1.5rem;
+}
+
+.con-p1 {
+  margin-left: 1.4rem;
+}
+
+.con-p2 {
+  margin-left: 1.4rem;
+}
+
+.con-txt2 {
+  padding-left: 40rem;
+  position: relative;
+  bottom: 16rem;
+}
+
+.content-p1:hover {
+  color: red;
+}
+
+.con-txt1 {
+  position: relative;
+  top: 0.3rem;
+}
+
+.job-txt h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+.job-txt {
+  padding: 6% 10%;
+  text-align: center;
+}
+
+.job-head2 {
+  padding-top: 1rem;
+  margin-bottom: 2.6rem;
+  color: #8F8F8F;
+}
+
+.job-btn {
+  border: none;
+  background-color: #FF7900;
+  color: #fff;
+  padding: 9px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.job-btn:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.foot-img {
+  width: 15rem;
+}
+
+.footer-con {
+  background-color: #292929;
+  padding: 2% 8%;
+}
+
+.footer-con p {
+  color: #FFFFFF;
+  padding-left: 5rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: -0.8rem;
+  margin-left: 0.5rem;
+}
+
+.footer-para {
+  margin-top: -3rem;
+  position: relative;
+  bottom: 2.5rem;
+  right: 0.2rem;
+}
+
+.footer-para1:hover {
+  color: #FF7900;
+  cursor: pointer;
+}
+
+.footer-para2 {
+  padding-top: 1rem;
+}
+
+.footer-con hr {
+  background-color: #767676;
+  margin-left: 5.4rem;
+}
+
+.logoie1 {
+  color: #fff;
+  margin-left: 13rem;
+  position: relative;
+  bottom: 6.5px;
+
+}
+
+.logoie2 {
+  color: #fff;
+  margin-left: 1rem;
+  position: relative;
+  left: -8px;
+  bottom: 6.5px;
+}
+
+.logoie3 {
+  color: #fff;
+  margin-left: 1rem;
+  position: relative;
+  left: -13px;
+  bottom: 6.5px;
+}
+
+.footer-para4 {
+  position: relative;
+  top: 2rem;
+}
+
+.logoie1:hover {
+  color: #E1306C;
+  cursor: pointer;
+}
+
+.logoie2:hover {
+  color: #3B5998;
+  cursor: pointer;
+}
+
+.logoie3:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
